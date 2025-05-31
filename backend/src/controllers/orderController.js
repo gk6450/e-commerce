@@ -54,7 +54,7 @@ export const checkout = async (req, res, next) => {
     }
 
     // Optional: send confirmation email
-    // await emailService.sendOrderEmail(order, enrichedItems, status);
+    await emailService.sendOrderEmail(order, enrichedItems, status);
 
     res.json({ order_number, status });
   } catch (err) {
