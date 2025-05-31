@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* You can add global overrides here, e.g.: */
+body {
+  @apply bg-gray-100 text-gray-800;
+}
