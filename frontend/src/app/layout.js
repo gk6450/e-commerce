@@ -1,6 +1,8 @@
 import "./globals.css";
 import { CartProvider } from "../context/CartContext";
 import Navbar from "../components/Navbar";
+import { Suspense } from 'react';
+import Loader from "@/components/Loader";
 
 export const metadata = {
   title: "Mini E-Shop",
@@ -19,7 +21,9 @@ export default function RootLayout({ children }) {
           <Navbar />
 
           <main className="flex-grow container mx-auto px-4 py-8">
-            {children}
+            <Suspense fallback={<Loader text="Loading page..." />}>
+              {children}
+            </Suspense>
           </main>
 
           <footer className="bg-white shadow-inner py-4">

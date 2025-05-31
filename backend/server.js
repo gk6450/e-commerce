@@ -19,7 +19,7 @@ app.use('/api/orders', orderRoutes);
 // Initialize DB and start server
 initializeDB().then(() => {
   app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
+    console.log(`🚀 Server running on ${PORT}`);
   });
 }).catch(err => {
   console.error('❌ Could not start server due to DB init failure', err);
