@@ -1,6 +1,6 @@
 # Mini E-commerce Application
 [Try it now](https://e-commerce-mu-jade-45.vercel.app/)
-- If the application shows loading for extra time, see the Deployment Info(render backend service may have spun down).
+- If the application shows loading for extra time, see the Deployment Info (Render backend service may have spun down).
 
 A full-stack mini e-commerce application consisting of a **backend** built with Node.js/Express and PostgreSQL, and a **frontend** built with Next.js, React and TailwindCSS. This repository contains both the frontend and backend code, providing a seamless developer experience for setting up, running, and extending the project.
 
