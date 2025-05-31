@@ -65,14 +65,14 @@ Follow these steps to get the **Mini E-commerce Application** up and running on 
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mini-ecommerce.git
-cd mini-ecommerce
+git clone https://github.com/gk6450/e-commerce.git
+cd e-commerce
 ```
 
 You will see two folders:
 
-- `mini-ecommerce-backend/`
-- `mini-ecommerce-frontend/`
+- `backend/`
+- `frontend/`
 
 ---
 
@@ -81,7 +81,7 @@ You will see two folders:
 Navigate to the backend directory:
 
 ```bash
-cd mini-ecommerce-backend
+cd backend
 ```
 
 Install dependencies:
@@ -109,7 +109,7 @@ yarn dev
 Open a new terminal window and navigate to the frontend directory:
 
 ```bash
-cd ../mini-ecommerce-frontend
+cd ../frontend
 ```
 
 Install dependencies:
@@ -138,7 +138,7 @@ A `seed.js` script is included in the frontend folder to add 25 dummy products.
 
 ### Steps:
 
-1. Open `mini-ecommerce-frontend/seed.js` and update the backend url in seed() function:
+1. Open `frontend/seed.js` and update the backend url in seed() function:
 
 2. Run the seed script:
 
@@ -182,7 +182,7 @@ After checkout, a “Thank You” page will show:
 
 ## 📁 Environment Variables
 
-### Backend (`mini-ecommerce-backend/.env`)
+### Backend (`backend/.env`)
 
 ```env
 # Mailtrap SMTP
@@ -210,7 +210,7 @@ FRONTEND_URL=http://localhost:3000
 ---
 
 
-### Frontend (`mini-ecommerce-frontend/.env`)
+### Frontend (`frontend/.env`)
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:5000/api/
